@@ -1,4 +1,4 @@
-from datetime import data as dat
+from datetime import data as dat:
 
 def getYear():
     year = input ("PLease enter the year that you were born. ")
@@ -10,5 +10,5 @@ def age(yearOfBirth):
     thisyear = today.year
     age = thisyear - yearOfBirth
     
-year = getyear ()
+year = getyear ():
 print("you will be %s years old this year on your birthday" %age(year))
